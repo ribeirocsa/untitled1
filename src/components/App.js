@@ -4,6 +4,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import ItemDetail from "./ItemDetail";
 import CategoryDetail from "./CategoryDetail";
 import NavBar from "./NavBar";
+import Callback from './callback';
 
 class App extends Component {
 
@@ -28,6 +29,8 @@ class App extends Component {
                                 <Route path='/category/:number' component={CategoryDetail}/>
 
                                 <Route path='/item/:number' component={ItemDetail}/>
+
+                                <Route path='/callback' component={Callback}/>
                             </Switch>
                         </div>
                     </div>

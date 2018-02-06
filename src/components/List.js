@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ListItem from "./ListItem";
 
-//const apiLink = 'https://dog.ceo/api/breeds/list/all';
 const apiLink = 'http://localhost/laravel/laravel-intro/public/api/article';
 
 class List extends Component {

@@ -1,190 +1,37 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
-[class*="entypo-"]:before {
-    font-family: 'entypo', sans-serif;
+
+
+/*-- Títulos --*/
+.sliderH3 {
+    color: white!important;
+    font-size: 40px!important;
 }
 
-*, div {
-    box-sizing: border-box;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    -webkit-font-smoothing: antialiased;
-}
-
-.container {
-    display: block;
-    width: 70%;
-    margin: 20px auto 0 auto;
-    background: #fff;
-    height: 100vh;
-}
-
-/*-- Search bar --*/
-.sw {
-    float: left;
-    width: 100%;
-    height: 100px;
-    background: #E3F2FD;
-    padding: 15px;
-    margin-bottom: 24px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    box-shadow: 0 2px 0 0px rgba(0, 0, 0, 0.1);
-}
-.sw form {
-    float: left;
-    width: 100%;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.sw .search {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    outline: none;
-    border: none;
-    border-radius: 0;
-    background: #fff;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    height: 50px;
-    -webkit-transition: all 0.05s ease-in-out;
-    transition: all 0.05s ease-in-out;
-    -webkit-appearance: none;
-}
-.sw .search:focus {
-    height: 80px;
-    padding: 10px 15px;
-}
-.sw .search:focus + .go {
-    height: 80px;
-    margin-right: -15px;
-    max-width: 80px;
-    color: #E3F2FD;
-}
-.content {
-    float: left;
-    width: 100%;
-    clear: both;
-    padding: 15px;
-    text-align: center;
-}
-.content h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-    padding: 0;
-    font-size: 48px;
-    font-weight: 500;
-    -webkit-font-smoothing: antialiased;
-    letter-spacing: -0.02em;
-    margin-top: 50px 0 0 0;
-}
-.content p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #333;
-    -webkit-font-smoothing: antialiased;
-}
-.content p a {
-    color: #E3F2FD;
-    text-decoration: none;
-}
-.content p a:hover {
-    text-decoration: underline;
+.sliderP{
+    color: white!important;
+    font-size: 18px!important;
 }
 
 
-/*-- imagens --*/
-.img-circle-detail {
-    border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    margin-top: 16px;
+/*-- Botões --*/
+
+.btn-primary-image {
+    background-color: white;
 }
 
-@media (min-width: 992px) {
-    .col-md-2 {
-        float: unset;
-    }
+/*-- Portfolio: imagens --*/
+
+.img-responsive {
+    min-width: 100% !important;
 }
 
-/*-- navbar --*/
-/*.panel-app {
-    background-color: #E3F2FD;
-    border-color: #e7e7e7;
-    padding: 10px 15px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+img.img-responsive {
+    height: -webkit-fill-available;
 }
 
-div#nav-collapse {
-    height: 105px;
-
-}
-
-.icon-bar
-{
-    border:1px solid #444 !important;
-}
-
-.navbar-toggle
-{
-    border:1px solid #444 !important;
-}*/
-
-.navbar {
-    background-color: #E3F2FD;
-}
-
-.dropdown {
-    float: right;
-}
-
-.dropdown.show {
-    float: right;
-}
-
-a.nav-link {
-    margin: 5px;
-}
-
-a.dropdown-toggle.nav-link {
-    margin: 5px;
-}
-
-.dropdown-menu {
-    text-align: right;
-}
-
-button.dropdown-item {
-    display: table;
-}
-
-.dropdown-menu.dropdown-menu-right.show {
-    text-align: -webkit-right;
-}
-
-.myReactAppNav {
-    float: right;
-}
-
-/*-- Buttons --*/
-.btn-primary {
-    margin-top: 5px;
+/*-- Section: mensagens --*/
+#messageCatDetail {
+    padding-bottom: 260px;
+    padding-top: 260px;
 }
